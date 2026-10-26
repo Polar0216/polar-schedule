@@ -1,6 +1,6 @@
 # Phase 4 最简使用指南
 
-实际发布状态和站点见 [验收报告](PHASE4_REPORT.md)。
+正式入口：[Polar Schedule](https://polar0216.github.io/polar-schedule/)。GitHub Actions 与 Pages 已配置并成功部署，无须再手动设置 GitHub 发布权限。[完整验收记录](PHASE4_REPORT.md)。
 
 1. **先备份旧站。** 原浏览器打开原 `http://127.0.0.1:4173/` → 设置与数据 → 导出完整 JSON，确认下载文件存在。保留旧站及其浏览器数据。
 2. **确认资料来源。** 新站初次空白正常：可主动导入刚才的 JSON，查看摘要后确认；若正式私有仓库已有正确资料，可在首次同步预览中选择接收远端。不要用空内容覆盖已有资料。

@@ -1,0 +1,195 @@
+{
+  "url": "https://polar0216.github.io/polar-schedule/",
+  "startedAt": "2026-10-26T06:30:29.685Z",
+  "passed": true,
+  "githubRequests": 0,
+  "errors": [],
+  "badResponses": [],
+  "viewports": [
+    {
+      "width": 1440,
+      "metadata": {
+        "manifestURL": "https://polar0216.github.io/polar-schedule/manifest.webmanifest",
+        "manifest": {
+          "id": "/polar-schedule/",
+          "name": "Polar Schedule · 日程与待办",
+          "short_name": "Polar Schedule",
+          "lang": "zh-CN",
+          "description": "离线安排日程，用私有仓库同步自己的待办。",
+          "start_url": "/polar-schedule/",
+          "scope": "/polar-schedule/",
+          "display": "standalone",
+          "background_color": "#f6f7fb",
+          "theme_color": "#6961d9",
+          "icons": [
+            {
+              "src": "icons/icon-192.png",
+              "sizes": "192x192",
+              "type": "image/png",
+              "purpose": "any"
+            },
+            {
+              "src": "icons/icon-512.png",
+              "sizes": "512x512",
+              "type": "image/png",
+              "purpose": "any"
+            },
+            {
+              "src": "icons/maskable-512.png",
+              "sizes": "512x512",
+              "type": "image/png",
+              "purpose": "maskable"
+            }
+          ]
+        },
+        "scope": "https://polar0216.github.io/polar-schedule/",
+        "worker": "https://polar0216.github.io/polar-schedule/sw.js",
+        "cacheNames": [
+          "polar-schedule:https://polar0216.github.io/polar-schedule/:0.4.0-76b06b22fb9549cf"
+        ],
+        "build": {
+          "version": "0.4.0",
+          "cacheVersion": "0.4.0-76b06b22fb9549cf",
+          "base": "/polar-schedule/"
+        },
+        "resources": [
+          "https://polar0216.github.io/polar-schedule/assets/index-Bi3Pn87L.js",
+          "https://polar0216.github.io/polar-schedule/assets/react-DjzoMZso.js",
+          "https://polar0216.github.io/polar-schedule/assets/storage-CPLUjXyj.js",
+          "https://polar0216.github.io/polar-schedule/assets/calendar-BuDKWH-r.js",
+          "https://polar0216.github.io/polar-schedule/assets/index-75cv02XS.css",
+          "https://polar0216.github.io/polar-schedule/manifest.webmanifest",
+          "https://polar0216.github.io/polar-schedule/build-info.json"
+        ],
+        "secure": true
+      },
+      "installability": {
+        "installabilityErrors": []
+      }
+    },
+    {
+      "width": 768,
+      "metadata": {
+        "manifestURL": "https://polar0216.github.io/polar-schedule/manifest.webmanifest",
+        "manifest": {
+          "id": "/polar-schedule/",
+          "name": "Polar Schedule · 日程与待办",
+          "short_name": "Polar Schedule",
+          "lang": "zh-CN",
+          "description": "离线安排日程，用私有仓库同步自己的待办。",
+          "start_url": "/polar-schedule/",
+          "scope": "/polar-schedule/",
+          "display": "standalone",
+          "background_color": "#f6f7fb",
+          "theme_color": "#6961d9",
+          "icons": [
+            {
+              "src": "icons/icon-192.png",
+              "sizes": "192x192",
+              "type": "image/png",
+              "purpose": "any"
+            },
+            {
+              "src": "icons/icon-512.png",
+              "sizes": "512x512",
+              "type": "image/png",
+              "purpose": "any"
+            },
+            {
+              "src": "icons/maskable-512.png",
+              "sizes": "512x512",
+              "type": "image/png",
+              "purpose": "maskable"
+            }
+          ]
+        },
+        "scope": "https://polar0216.github.io/polar-schedule/",
+        "worker": "https://polar0216.github.io/polar-schedule/sw.js",
+        "cacheNames": [
+          "polar-schedule:https://polar0216.github.io/polar-schedule/:0.4.0-76b06b22fb9549cf"
+        ],
+        "build": {
+          "version": "0.4.0",
+          "cacheVersion": "0.4.0-76b06b22fb9549cf",
+          "base": "/polar-schedule/"
+        },
+        "resources": [
+          "https://polar0216.github.io/polar-schedule/assets/index-Bi3Pn87L.js",
+          "https://polar0216.github.io/polar-schedule/assets/react-DjzoMZso.js",
+          "https://polar0216.github.io/polar-schedule/assets/storage-CPLUjXyj.js",
+          "https://polar0216.github.io/polar-schedule/assets/index-75cv02XS.css",
+          "https://polar0216.github.io/polar-schedule/assets/calendar-BuDKWH-r.js",
+          "https://polar0216.github.io/polar-schedule/manifest.webmanifest",
+          "https://polar0216.github.io/polar-schedule/build-info.json"
+        ],
+        "secure": true
+      },
+      "installability": {
+        "installabilityErrors": []
+      }
+    },
+    {
+      "width": 390,
+      "metadata": {
+        "manifestURL": "https://polar0216.github.io/polar-schedule/manifest.webmanifest",
+        "manifest": {
+          "id": "/polar-schedule/",
+          "name": "Polar Schedule · 日程与待办",
+          "short_name": "Polar Schedule",
+          "lang": "zh-CN",
+          "description": "离线安排日程，用私有仓库同步自己的待办。",
+          "start_url": "/polar-schedule/",
+          "scope": "/polar-schedule/",
+          "display": "standalone",
+          "background_color": "#f6f7fb",
+          "theme_color": "#6961d9",
+          "icons": [
+            {
+              "src": "icons/icon-192.png",
+              "sizes": "192x192",
+              "type": "image/png",
+              "purpose": "any"
+            },
+            {
+              "src": "icons/icon-512.png",
+              "sizes": "512x512",
+              "type": "image/png",
+              "purpose": "any"
+            },
+            {
+              "src": "icons/maskable-512.png",
+              "sizes": "512x512",
+              "type": "image/png",
+              "purpose": "maskable"
+            }
+          ]
+        },
+        "scope": "https://polar0216.github.io/polar-schedule/",
+        "worker": "https://polar0216.github.io/polar-schedule/sw.js",
+        "cacheNames": [
+          "polar-schedule:https://polar0216.github.io/polar-schedule/:0.4.0-76b06b22fb9549cf"
+        ],
+        "build": {
+          "version": "0.4.0",
+          "cacheVersion": "0.4.0-76b06b22fb9549cf",
+          "base": "/polar-schedule/"
+        },
+        "resources": [
+          "https://polar0216.github.io/polar-schedule/assets/index-Bi3Pn87L.js",
+          "https://polar0216.github.io/polar-schedule/assets/react-DjzoMZso.js",
+          "https://polar0216.github.io/polar-schedule/assets/index-75cv02XS.css",
+          "https://polar0216.github.io/polar-schedule/assets/calendar-BuDKWH-r.js",
+          "https://polar0216.github.io/polar-schedule/assets/storage-CPLUjXyj.js",
+          "https://polar0216.github.io/polar-schedule/manifest.webmanifest",
+          "https://polar0216.github.io/polar-schedule/build-info.json"
+        ],
+        "secure": true
+      },
+      "installability": {
+        "installabilityErrors": []
+      }
+    }
+  ],
+  "offlineReopenEdit": true,
+  "finishedAt": "2026-10-26T06:31:04.008Z"
+}

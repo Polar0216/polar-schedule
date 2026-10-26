@@ -2,6 +2,8 @@
 
 版本 v0.4.0；本说明日期 2026-10-26。实际上线证据与提交见 [验收报告](PHASE4_REPORT.md)。
 
+已发布站点：[https://polar0216.github.io/polar-schedule/](https://polar0216.github.io/polar-schedule/)。已验证代码为公开仓库 `655d54d07e048bec337a63d22e425453515387bd`，标签 `v0.4.0`；[成功 Actions](https://github.com/Polar0216/polar-schedule/actions/runs/40279584186)。后续仅文档/截图提交不改变已部署应用。
+
 ## 部署配置
 
 - 唯一公开前端仓库：`Polar0216/polar-schedule`，默认分支 main。

@@ -2,7 +2,7 @@
 
 用时间轴安排日程，用自定义清单整理待办。免费、开源、纯前端。当前为 Phase 4（v0.4.0）：本地功能无须登录，可由用户主动连接固定的 GitHub 私有正式/测试数据仓库；支持 Pages 子路径部署、PWA 安装与离线使用。Dexie 保持 v4，领域 JSON 保持 v3，保留原有日程、备份和撤销。
 
-发布状态及实际站点以 [Phase 4 验收报告](docs/PHASE4_REPORT.md) 为准。[最简使用指南](docs/PHASE4_USER_FINAL_STEPS.md) · [部署、迁移与恢复](docs/PHASE4_DEPLOY_AND_RECOVERY.md)。
+正式入口：[打开 Polar Schedule](https://polar0216.github.io/polar-schedule/)。v0.4.0 已通过真实 Actions 部署及线上浏览器验证；正式个人数据首次同步仍须用户本人确认。[Phase 4 验收报告](docs/PHASE4_REPORT.md) · [最简使用指南](docs/PHASE4_USER_FINAL_STEPS.md) · [部署、迁移与恢复](docs/PHASE4_DEPLOY_AND_RECOVERY.md)。
 
 ## 安装与启动
 
