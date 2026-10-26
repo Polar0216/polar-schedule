@@ -86,7 +86,7 @@ for (const width of [390, 768, 1440]) test(`P4 Pages ${width}px可迁移/访问�
   for (const name of ['日', '周', '月']) { await page.getByRole('button', { name, exact: true }).click(); await expect(page.locator('.fc')).toBeVisible(); }
   await page.getByRole('button', { name: '设置与数据', exact: true }).click(); await page.getByRole('button', { name: '安装与更新', exact: true }).click();
   await expect(page.locator('[data-settings-section=pwa]')).toContainText('Safari');
-  await expect(page.locator('[data-settings-section=pwa] h3')).toBeInViewport();
+  await expect(page.locator('[data-settings-section=pwa]')).toBeInViewport({ ratio: 1 });
   await expect(page.getByRole('button', { name: '安装 Polar Schedule', exact: true })).toHaveCount(0);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true); await mkdir('docs/evidence/phase4', { recursive: true }); await page.screenshot({ path: `docs/evidence/phase4/pages-install-help-${width}.png`, fullPage: true });
 });

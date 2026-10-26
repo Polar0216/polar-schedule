@@ -23,7 +23,7 @@
 
 ## 测试、截图与部署记录
 
-实际执行结果（2026-10-26 13:32–13:37，Asia/Shanghai）：
+最终本机完整门禁（2026-10-26 14:18–14:22，Asia/Shanghai，`CI=true` 严格模式）：
 
 | 命令 | 结果 |
 | --- | --- |
@@ -37,9 +37,15 @@
 | `npm run test:e2e:pages` | 7/7 通过 |
 | `npm audit` / `npm audit --omit=dev` | 均 0 vulnerabilities |
 
-串行门禁 `npm run verify:mocks` 全部 exitCode=0，源指纹 `da97ae512f57a18a830751cc76d9600fd5ade99a2da0f6ba2795d2638f98b55b`；记录 `evidence/phase4/mock-results.json`。Chromium CDP 安装条件 `installabilityErrors=[]`；证据 `pwa-local-installability.json`。这是浏览器安装条件验证，不是用户已安装。
+串行门禁 `npm run verify:mocks` 全部 exitCode=0，源指纹 `61af522f173d79cf63485d69e7310a5baceb66ec55a38e6e55bcf4c0e27ab9a1`；记录 `evidence/phase4/mock-results.json`。Chromium CDP 安装条件 `installabilityErrors=[]`；证据 `pwa-local-installability.json`。这是浏览器安装条件验证，不是用户已安装。
 
 截图在 `evidence/phase4/`：1440/768/390 浅深色正式预览、Pages 首次迁移页、各尺寸安装说明；均为隔离虚构数据。已查看桌面、平板、手机截图的边界与圆角。历史回归截图另存 `evidence/phase4/regression/`，不覆盖 Phase 1–3 证据。
+
+### 首次云端发现并修复的问题
+
+[首次 Actions 运行](https://github.com/Polar0216/polar-schedule/actions/runs/40277518804) 的 178 单元、79 根路径浏览器用例、两项审计与两种构建均通过，但 Pages 套件启动时报 4173 占用，部署被正确跳过。实际根因是 `defineConfig(base, overrides)` 会拼接 `webServer`，使子路径套件有两个根路径服务器；本机允许复用时掩盖了重复，CI 严格模式会拒绝。
+
+修复为 `defineConfig({ ...base, ... })`，确保恰好一个根预览与一个子路径预览；预览直接启动 Node/Vite 并声明优雅关闭。独立 4284 端口严格 CI 模式连续两次启动/关闭与安装条件测试通过。最终完整门禁 `CI=true` 复验（禁止复用服务器）178/79/7 全部通过。原用例和断言全部保留，安装截图另加强整个说明区域进入视口的检查。
 
 ## 数据保护与公开范围
 

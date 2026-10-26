@@ -19,7 +19,7 @@ npx playwright install chromium
 npm run verify:mocks
 ```
 
-本机完整开发历史含原始用户反馈，**不要把本机所有历史直接推送为公开仓库**。首次空仓库发布使用 `scripts/prepare-public-release.mjs`，要求当前质量门禁匹配并筛除原反馈材料，再在隔离目录建立公开初始历史；本机历史和原图保留。后续公开改动基于已存在的公开 main 正常提交，不强推。脚本不会自动推送。
+本机完整开发历史含原始用户反馈，**不要把本机所有历史直接推送为公开仓库**。首次空仓库发布使用 `scripts/prepare-public-release.mjs`，要求当前质量门禁匹配并筛除原反馈材料，再在隔离目录建立公开历史；本机历史和原图保留。此次首次大包经网络重置，改为 codex 暂存分支的小批量正常推送，最终核对完整树与审核快照一致后才创建 main；这是同一公开快照的传输拆分。后续公开改动基于已存在的公开 main 正常提交，不强推。脚本不会自动推送。
 
 ## 首次迁移
 
@@ -54,9 +54,11 @@ npm run verify:mocks
 ## 回退与恢复
 
 1. 优先导出当前完整 JSON 与必要的冲突两端快照，保留旧 localhost 原浏览器。
-2. 代码回退在公开仓库基于当前 main 执行针对问题提交的 `git revert <commit>`，正常推送触发同样质量门禁与 Pages 部署。不 reset hard，不 force push。跨多个变更先检查差异和数据库兼容。
+2. 后续代码回退在公开仓库基于当前 main 执行针对问题功能提交的 `git revert <commit>`，正常推送触发同样质量门禁与 Pages 部署。不 reset hard，不 force push。首发前没有已部署的旧 Pages 版本；不要任意撤销首次上传中的证据/初始化提交。跨多个变更先检查差异和数据库兼容。
 3. 确认 Actions deploy 成功后，保存草稿并关闭所有旧应用窗口，重新打开确认版本/缓存更新。报告中的部署 commit 可作为已验收参考。
 4. 数据恢复通过应用导入入口查看摘要并确认；最近一次导入前/同步前快照可下载。不能把静态版本回退当作个人数据恢复。
 5. Dexie v4/JSON v3 在本阶段未升级；若未来回退版本不支持已有数据库，应使用支持当前模型的构建和 JSON 恢复，不通过清库降级。
+
+Pages 暂时不可用时，可在本机当前完整源码运行 `npm run build`，然后 `npm run preview -- --port 4173 --strictPort`，继续使用原浏览器的 4173 数据。若原数据有缺失，从已下载 JSON 经过预览确认恢复；不把新站空库导入旧站覆盖资料。
 
 参考：[GitHub 自定义 Pages 工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)、[Vite 静态部署](https://vite.dev/guide/static-deploy)、[MDN PWA 安装条件](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable)。
