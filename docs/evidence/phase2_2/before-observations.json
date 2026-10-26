@@ -1,0 +1,34 @@
+{
+  "origin": "http://127.0.0.1:4192",
+  "isolatedContext": true,
+  "nativeColorControls": {
+    "tag": "color",
+    "schedule": "color"
+  },
+  "settingsEntrypoints": {
+    "设置与数据": true,
+    "管理与设置": true,
+    "设置与数据备份": true
+  },
+  "month": {
+    "backgroundElements": 0,
+    "taskEntries": 4,
+    "backgroundTitleInMonthEntry": 0
+  },
+  "settingsLowHeight": {
+    "dialogWidth": 578,
+    "scrollWidth": 600,
+    "children": [
+      {
+        "class": "dialog-body settings-body",
+        "clientWidth": 578,
+        "scrollWidth": 578
+      },
+      {
+        "class": "hour-settings",
+        "clientWidth": 171,
+        "scrollWidth": 171
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "startedAt": "2026-10-26T05:32:53.085Z",
+  "passed": true,
+  "sourceDigest": "da97ae512f57a18a830751cc76d9600fd5ade99a2da0f6ba2795d2638f98b55b",
+  "commands": [
+    {
+      "command": "npm run typecheck",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build:pages",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check:public",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e",
+      "exitCode": 0
+    },
+    {
+      "command": "npm audit --omit=dev",
+      "exitCode": 0
+    },
+    {
+      "command": "npm audit",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e:pages",
+      "exitCode": 0
+    }
+  ],
+  "finishedAt": "2026-10-26T05:37:27.943Z"
+}

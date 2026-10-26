@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "Polar Schedule · 日程与待办",
+  "short_name": "Polar Schedule",
+  "lang": "zh-CN",
+  "description": "离线安排日程，用私有仓库同步自己的待办。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7fb",
+  "theme_color": "#6961d9",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

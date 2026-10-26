@@ -1,0 +1,86 @@
+{
+  "repository": "Polar0216/polar-schedule-data-test",
+  "runId": "run-20261023142301168",
+  "path": "data/phase3-e2e/run-20261023142301168.json",
+  "startedAt": "2026-10-23T14:23:01.170Z",
+  "status": "passed",
+  "steps": [
+    {
+      "method": "GET",
+      "path": "/repos/Polar0216/polar-schedule-data-test",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/repos/Polar0216/polar-schedule-data-test/contents",
+      "status": 404
+    },
+    {
+      "method": "PUT",
+      "path": "/repos/Polar0216/polar-schedule-data-test/contents/.polar-schedule-test-init.json",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/repos/Polar0216/polar-schedule-data-test",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/repos/Polar0216/polar-schedule-data-test/contents/data/phase3-e2e/run-20261023142301168.json?ref=main",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/repos/Polar0216/polar-schedule-data-test",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/repos/Polar0216/polar-schedule-data-test/contents/data/phase3-e2e/run-20261023142301168.json",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/repos/Polar0216/polar-schedule-data-test/contents/data/phase3-e2e/run-20261023142301168.json?ref=main",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/repos/Polar0216/polar-schedule-data-test/contents/data/phase3-e2e/run-20261023142301168.json",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/repos/Polar0216/polar-schedule-data-test/contents/data/phase3-e2e/run-20261023142301168.json",
+      "status": 409
+    },
+    {
+      "method": "GET",
+      "path": "/repos/Polar0216/polar-schedule-data-test/contents/data/phase3-e2e/run-20261023142301168.json?ref=main",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/repos/Polar0216/polar-schedule-data-test/contents/data/phase3-e2e/run-20261023142301168.json",
+      "status": 422
+    },
+    {
+      "method": "GET",
+      "path": "/repos/Polar0216/polar-schedule-data-test",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/repos/Polar0216/polar-schedule-data-test/contents/data/phase3-e2e/run-20261023142301168.json?ref=main",
+      "status": 200
+    }
+  ],
+  "retainedTestFile": true,
+  "initializedEmptyRepository": true,
+  "staleShaStatus": 409,
+  "invalidCredentialStatus": 401,
+  "dataIntegrity": "UTF8, IDs, revisions, subtasks, tags, independent execution status, recurring series, exception, tombstone and exact canonical content preserved",
+  "credentialScan": "passed",
+  "finishedAt": "2026-10-23T14:23:17.542Z"
+}

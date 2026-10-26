@@ -1,0 +1,234 @@
+{
+  "version": 30,
+  "tables": {
+    "backups": [],
+    "exceptions": [],
+    "lists": [
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "00000000-0000-4000-8000-000000000001",
+        "title": "收集箱",
+        "color": "#7774d5",
+        "icon": "inbox",
+        "order": 0,
+        "archived": false
+      }
+    ],
+    "metadata": [
+      {
+        "key": "state",
+        "schemaVersion": 3,
+        "settings": {
+          "theme": "light",
+          "defaultView": "week",
+          "timeZone": "Asia/Shanghai",
+          "hiddenListIds": [],
+          "sidebarCollapsed": false,
+          "tasksCollapsed": false,
+          "slotMinutes": 30,
+          "startHour": 7,
+          "endHour": 23,
+          "weekStartsOn": 1,
+          "density": "comfortable",
+          "showBackground": true,
+          "defaultDurationMinutes": 60
+        },
+        "updatedAt": "2026-10-18T01:00:00.000Z"
+      }
+    ],
+    "scheduleBlocks": [
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "40000000-0000-4000-8000-000000000002",
+        "type": "event",
+        "title": "研究计划 · 普通长安排",
+        "description": "",
+        "display": "normal",
+        "allDay": false,
+        "startAt": "2026-10-19T00:00:00.000Z",
+        "endAt": "2026-10-19T15:00:00.000Z",
+        "timeZone": "Asia/Shanghai",
+        "color": "#799b82"
+      },
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "40000000-0000-4000-8000-000000000003",
+        "type": "event",
+        "title": "课程背景 · 短时间范围",
+        "description": "",
+        "display": "background",
+        "allDay": false,
+        "startAt": "2026-10-19T00:15:00.000Z",
+        "endAt": "2026-10-19T01:15:00.000Z",
+        "timeZone": "Asia/Shanghai",
+        "color": "#799b82"
+      },
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "40000000-0000-4000-8000-000000000004",
+        "type": "task",
+        "taskId": "40000000-0000-4000-8000-000000000001",
+        "allDay": false,
+        "startAt": "2026-10-19T00:30:00.000Z",
+        "endAt": "2026-10-19T01:45:00.000Z",
+        "timeZone": "Asia/Shanghai",
+        "executionStatus": "completed",
+        "completedAt": "2026-10-18T01:00:00.000Z"
+      },
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "40000000-0000-4000-8000-000000000005",
+        "type": "task",
+        "taskId": "40000000-0000-4000-8000-000000000001",
+        "allDay": false,
+        "startAt": "2026-10-20T01:00:00.000Z",
+        "endAt": "2026-10-20T02:00:00.000Z",
+        "timeZone": "Asia/Shanghai",
+        "executionStatus": "pending"
+      },
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "40000000-0000-4000-8000-000000000006",
+        "type": "event",
+        "title": "全天复习",
+        "description": "",
+        "display": "normal",
+        "allDay": true,
+        "startDate": "2026-10-22",
+        "endDate": "2026-10-23",
+        "timeZone": "Asia/Shanghai"
+      },
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "40000000-0000-4000-8000-000000000008",
+        "type": "event",
+        "title": "短普通安排 · 实验记录",
+        "description": "",
+        "display": "normal",
+        "allDay": false,
+        "startAt": "2026-10-19T00:30:00.000Z",
+        "endAt": "2026-10-19T01:45:00.000Z",
+        "timeZone": "Asia/Shanghai",
+        "color": "#799b82"
+      },
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "40000000-0000-4000-8000-000000000020",
+        "type": "event",
+        "title": "五重叠事项 1",
+        "description": "",
+        "display": "normal",
+        "allDay": false,
+        "startAt": "2026-10-21T00:30:00.000Z",
+        "endAt": "2026-10-21T15:00:00.000Z",
+        "timeZone": "Asia/Shanghai",
+        "color": "#799b82"
+      },
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "40000000-0000-4000-8000-000000000021",
+        "type": "event",
+        "title": "五重叠事项 2",
+        "description": "",
+        "display": "normal",
+        "allDay": false,
+        "startAt": "2026-10-21T00:30:00.000Z",
+        "endAt": "2026-10-21T02:00:00.000Z",
+        "timeZone": "Asia/Shanghai",
+        "color": "#799b82"
+      },
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "40000000-0000-4000-8000-000000000022",
+        "type": "event",
+        "title": "五重叠事项 3",
+        "description": "",
+        "display": "normal",
+        "allDay": false,
+        "startAt": "2026-10-21T00:30:00.000Z",
+        "endAt": "2026-10-21T02:00:00.000Z",
+        "timeZone": "Asia/Shanghai",
+        "color": "#799b82"
+      },
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "40000000-0000-4000-8000-000000000023",
+        "type": "event",
+        "title": "五重叠事项 4",
+        "description": "",
+        "display": "normal",
+        "allDay": false,
+        "startAt": "2026-10-21T00:30:00.000Z",
+        "endAt": "2026-10-21T02:00:00.000Z",
+        "timeZone": "Asia/Shanghai",
+        "color": "#799b82"
+      },
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "40000000-0000-4000-8000-000000000024",
+        "type": "event",
+        "title": "五重叠事项 5",
+        "description": "",
+        "display": "normal",
+        "allDay": false,
+        "startAt": "2026-10-21T00:30:00.000Z",
+        "endAt": "2026-10-21T02:00:00.000Z",
+        "timeZone": "Asia/Shanghai",
+        "color": "#799b82"
+      }
+    ],
+    "tags": [
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "40000000-0000-4000-8000-000000000007",
+        "title": "学习",
+        "color": "#7774d5"
+      }
+    ],
+    "tasks": [
+      {
+        "revision": 2,
+        "createdAt": "2026-10-18T01:00:00.000Z",
+        "updatedAt": "2026-10-18T01:00:00.000Z",
+        "id": "40000000-0000-4000-8000-000000000001",
+        "title": "实验报告 · 两段执行",
+        "description": "",
+        "listId": "00000000-0000-4000-8000-000000000001",
+        "status": "todo",
+        "priority": "high",
+        "dueDate": "2026-10-23",
+        "order": 0,
+        "subtasks": [],
+        "tagIds": []
+      }
+    ],
+    "tombstones": [],
+    "undo": []
+  }
+}

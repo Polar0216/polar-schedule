@@ -1,0 +1,197 @@
+[
+  {
+    "label": "desktop-top",
+    "dialog": {
+      "tag": "DIALOG",
+      "className": "dialog ",
+      "overflowY": "auto",
+      "position": "fixed",
+      "borderRadius": "16px",
+      "clientHeight": 710,
+      "scrollHeight": 1233,
+      "box": {
+        "x": 490,
+        "y": 24,
+        "width": 460,
+        "height": 712
+      }
+    },
+    "header": {
+      "tag": "HEADER",
+      "className": "dialog-header",
+      "overflowY": "visible",
+      "position": "sticky",
+      "borderRadius": "0px",
+      "clientHeight": 66,
+      "scrollHeight": 66,
+      "box": {
+        "x": 491,
+        "y": 25,
+        "width": 458,
+        "height": 67
+      }
+    },
+    "form": {
+      "tag": "FORM",
+      "className": "dialog-body form-stack",
+      "overflowY": "visible",
+      "position": "static",
+      "borderRadius": "0px",
+      "clientHeight": 1108,
+      "scrollHeight": 1108,
+      "box": {
+        "x": 491,
+        "y": 150,
+        "width": 458,
+        "height": 1107.5
+      }
+    },
+    "footer": {
+      "tag": "DIV",
+      "className": "form-actions",
+      "overflowY": "visible",
+      "position": "static",
+      "borderRadius": "0px",
+      "clientHeight": 43,
+      "scrollHeight": 43,
+      "box": {
+        "x": 514,
+        "y": 1192.5,
+        "width": 412,
+        "height": 43
+      }
+    },
+    "scrollTop": 0,
+    "overflowY": "auto"
+  },
+  {
+    "label": "desktop-bottom",
+    "dialog": {
+      "tag": "DIALOG",
+      "className": "dialog ",
+      "overflowY": "auto",
+      "position": "fixed",
+      "borderRadius": "16px",
+      "clientHeight": 710,
+      "scrollHeight": 1233,
+      "box": {
+        "x": 490,
+        "y": 24,
+        "width": 460,
+        "height": 712
+      }
+    },
+    "header": {
+      "tag": "HEADER",
+      "className": "dialog-header",
+      "overflowY": "visible",
+      "position": "sticky",
+      "borderRadius": "0px",
+      "clientHeight": 66,
+      "scrollHeight": 66,
+      "box": {
+        "x": 491,
+        "y": 25,
+        "width": 458,
+        "height": 67
+      }
+    },
+    "form": {
+      "tag": "FORM",
+      "className": "dialog-body form-stack",
+      "overflowY": "visible",
+      "position": "static",
+      "borderRadius": "0px",
+      "clientHeight": 1108,
+      "scrollHeight": 1108,
+      "box": {
+        "x": 491,
+        "y": -373,
+        "width": 458,
+        "height": 1107.5
+      }
+    },
+    "footer": {
+      "tag": "DIV",
+      "className": "form-actions",
+      "overflowY": "visible",
+      "position": "static",
+      "borderRadius": "0px",
+      "clientHeight": 43,
+      "scrollHeight": 43,
+      "box": {
+        "x": 514,
+        "y": 669.5,
+        "width": 412,
+        "height": 43
+      }
+    },
+    "scrollTop": 523,
+    "overflowY": "auto"
+  },
+  {
+    "label": "mobile-dark-bottom",
+    "dialog": {
+      "tag": "DIALOG",
+      "className": "dialog ",
+      "overflowY": "auto",
+      "position": "fixed",
+      "borderRadius": "16px",
+      "clientHeight": 694,
+      "scrollHeight": 1292,
+      "box": {
+        "x": 10,
+        "y": 12,
+        "width": 370,
+        "height": 696
+      }
+    },
+    "header": {
+      "tag": "HEADER",
+      "className": "dialog-header",
+      "overflowY": "visible",
+      "position": "sticky",
+      "borderRadius": "0px",
+      "clientHeight": 60,
+      "scrollHeight": 60,
+      "box": {
+        "x": 11,
+        "y": 13,
+        "width": 368,
+        "height": 61
+      }
+    },
+    "form": {
+      "tag": "FORM",
+      "className": "dialog-body form-stack",
+      "overflowY": "visible",
+      "position": "static",
+      "borderRadius": "0px",
+      "clientHeight": 1173,
+      "scrollHeight": 1173,
+      "box": {
+        "x": 11,
+        "y": -466,
+        "width": 368,
+        "height": 1173
+      }
+    },
+    "footer": {
+      "tag": "DIV",
+      "className": "form-actions",
+      "overflowY": "visible",
+      "position": "static",
+      "borderRadius": "0px",
+      "clientHeight": 43,
+      "scrollHeight": 43,
+      "box": {
+        "x": 29,
+        "y": 644,
+        "width": 332,
+        "height": 43
+      }
+    },
+    "scrollTop": 598,
+    "overflowY": "auto"
+  }
+]

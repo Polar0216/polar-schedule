@@ -1,0 +1,32 @@
+{
+  "startedAt": "2026-10-23T14:16:52.599Z",
+  "passed": true,
+  "sourceDigest": "38d7eebb903b8ab82e0f146774ed2d275e95a83f6949bebea72068051e71ce96",
+  "commands": [
+    {
+      "command": "npm run typecheck",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e",
+      "exitCode": 0
+    },
+    {
+      "command": "npm audit --omit=dev",
+      "exitCode": 0
+    },
+    {
+      "command": "npm audit",
+      "exitCode": 0
+    }
+  ],
+  "finishedAt": "2026-10-23T14:22:34.711Z"
+}

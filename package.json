@@ -1,0 +1,53 @@
+{
+  "name": "polar-schedule",
+  "private": true,
+  "version": "0.4.0",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build && node scripts/build-sw.mjs",
+    "build:pages": "tsc -b && vite build --base=/polar-schedule/ --outDir=dist-pages && node scripts/build-sw.mjs dist-pages /polar-schedule/",
+    "icons": "node scripts/generate-icons.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:pages": "playwright test --config=playwright.pages.config.ts",
+    "check:public": "node scripts/check-public-build.mjs",
+    "test:github:live": "node scripts/test-github-live.mjs",
+    "verify:mocks": "node scripts/verify-mocks.mjs phase4"
+  },
+  "dependencies": {
+    "@daypicker/react": "^10.0.2",
+    "@fullcalendar/core": "~6.1.19",
+    "@fullcalendar/daygrid": "~6.1.19",
+    "@fullcalendar/interaction": "~6.1.19",
+    "@fullcalendar/react": "~6.1.19",
+    "@fullcalendar/timegrid": "~6.1.19",
+    "dexie": "^4.2.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-colorful": "5.8.1",
+    "react-dom": "^19.2.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "fake-indexeddb": "^6.2.4",
+    "jsdom": "^27.0.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.12",
+    "vitest": "^4.1.12"
+  }
+}

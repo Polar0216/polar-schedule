@@ -1,0 +1,10 @@
+{
+  "origin": "http://127.0.0.1:4192",
+  "isolatedContext": true,
+  "nativeVersion": 30,
+  "blocks": 11,
+  "recordEntitiesUnchanged": true,
+  "note": "Only an explicit UI theme toggle changes metadata settings; all persisted entity/backup/undo/tombstone rows stay identical.",
+  "matchesBeforeInitialSnapshot": true,
+  "matchesBeforeFinalSnapshot": true
+}

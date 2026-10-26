@@ -1,0 +1,36 @@
+.dialog[open]:has(.settings-body) { display: flex; flex-direction: column; width: 600px; overflow: hidden; }
+.dialog:has(.settings-body) > .dialog-header { flex: 0 0 auto; }
+.dialog:has(.settings-body) > .dialog-content { display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.settings-nav { display: flex; flex-wrap: wrap; gap: 6px; padding: 12px 20px; border-bottom: 1px solid var(--border); flex: 0 0 auto; }
+.settings-nav button { border-radius: 8px; background: var(--bg); color: var(--muted); padding: 8px 10px; font-size: 11px; }
+.settings-nav button:hover, .settings-nav button:focus-visible { color: var(--accent); background: var(--tint); }
+.settings-body { flex: 1 1 auto; min-height: 0; min-width: 0; width: 100%; overflow: auto; overscroll-behavior: contain; }
+.settings-body > section { min-width: 0; scroll-margin-top: 4px; }
+.settings-body .setting-row { min-width: 0; gap: 14px; }
+.settings-body .setting-row > span:first-child { min-width: 0; flex: 1 1 auto; overflow-wrap: anywhere; }
+.settings-body .setting-row select { width: 108px; max-width: 100%; min-width: 0; }
+.settings-body .hour-settings { max-width: 100%; min-width: 0; gap: 5px; }
+.settings-body .hour-settings select { width: 76px; }
+.settings-body .setting-row code { overflow-wrap: anywhere; text-align: right; flex: 0 1 auto; }
+.settings-body .visibility-list span { min-width: 0; overflow-wrap: anywhere; }
+.settings-body .visibility-list input { flex: 0 0 auto; }
+.settings-body .backup-note svg { flex: 0 0 auto; }
+.settings-body .backup-note p, .settings-body .import-preview { min-width: 0; overflow-wrap: anywhere; }
+.settings-body .data-buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.settings-body .data-buttons .button { min-width: 0; padding-inline: 8px; }
+.settings-body .storage-section { margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--border); }
+.settings-body .storage-section h4 { font-size: 12px; margin: 0 0 12px; }
+.settings-body .storage-section > p { display: block; overflow-wrap: anywhere; }
+.settings-body .storage-section > p > svg { vertical-align: middle; margin-right: 5px; }
+.migration-notice { flex: 0 0 auto; margin-top: 10px; padding: 12px 14px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); font-size: 11px; line-height: 1.7; }
+.migration-notice strong { color: var(--accent); }
+.migration-notice > div:last-child { display: flex; gap: 18px; }
+.migration-notice p { color: var(--muted); }
+@media (max-width: 700px) {
+  .settings-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 10px 16px; }
+  .settings-nav button { padding: 9px 4px; }
+  .settings-body .setting-row { flex-wrap: wrap; }
+  .settings-body .setting-row > span:first-child { flex-basis: 145px; }
+  .settings-body .hour-settings { flex: 0 1 auto; }
+  .settings-body .hour-settings select { width: 72px; }
+}
